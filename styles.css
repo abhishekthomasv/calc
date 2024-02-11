@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.btn-container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 100%;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.number{
+    border: 3px solid rgb(92, 89, 89);
+    border-radius: 50%;
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: rgb(92, 89, 89);
+    color: whitesmoke;
+   
+    
+}
+
+.calculator-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(57, 56, 56);
+    border-radius: 30px;
+    width: 430px;
+    height: 580px;
+    
+}
+
+input{
+    margin-top: 16px;
+    width: 370px;
+    height: 130px;
+    font-size: 34px;
+    border-radius: 20px;
+    background-color: rgb(85, 85, 85);
+    color: rgb(229, 245, 245);
+    margin-bottom: 16px;
+    align-self: center;
+    padding: 20px;
+    border: 5px solid rgba(131, 131, 131, 0.259);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 16px;
+    margin-top: 16px;  
+    width: 1200px;
+    margin-bottom: 8px;
+
+}
+
+.btn-operator-container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 25px;
+}
+
+.digit-zero{
+    width: 190px;
+    border-radius: 50px;
+}
+
+.btn-operator-container .number{
+    background-color: rgba(255, 166, 0, 0.905);
+    border-color: rgba(255, 166, 0, 0.905);
+}
+
+.clear-btn{
+    font-size: 20px;
+    padding: 1em;
+    border-radius: 30px;
+    margin-top: 18px;
+}
+
+.title{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+/* coded with ❤ by Abhishek :) */
